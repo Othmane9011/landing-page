@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tcho Kafew - Computer Parts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            font-family: 'Georgia', serif;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 18px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .categories {
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        /* Button styles */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #555;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .btn:hover {
+            background-color: #333;
+        }
+        /* Category styles */
+        .category {
+            background-color: #f8f8f8;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+        }
+        .category img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 100%;
+        }
+        .category h3 {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #333;
+        }
+        .category p {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
+        /* Style for the "Read More" button */
+        .read-more {
+            background-color: #555;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+        .read-more:hover {
+            background-color: #333;
+        }
+        /* Developer section styles */
+        .developer-section {
+            display: flex;
+            align-items: center;
+        }
+        .developer-screenshot {
+            flex: 1;
+            padding: 20px;
+        }
+        .developer-description {
+            flex: 1;
+            text-align: left;
+            padding: 20px;
+        }
+        .developer-description p {
+            text-align: justify;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #fff;
+        }
+
+        .footer-links img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tcho Kafew</h1>
+        <nav>
+            <a href="#about-tcho-kafew">About Tcho Kafew</a> |
+            <a href="#about-developer">About the Developer</a>
+        </nav>
+    </header>
+    <div class="container" id="about-developer">
+        <div class="about-developer">
+            <h2>About the Developer</h2>
+            <div class="developer-section">
+                <div class="developer-screenshot">
+                    <img src="othmane.jpg" alt="Your Name" style="max-width: 100%; border-radius: 10px;">
+                </div>
+                <div class="developer-description">
+                    <p>
+                        Hi, I'm Othmane Bengharbi, the developer and founder of Tcho Kafew. I've always had a deep passion for technology and a strong background in computer hardware. It's this passion and expertise that led me to create Tcho Kafew.
+                    </p>
+                    <p>
+                        With a mission to make high-quality computer parts accessible to everyone, I established this platform to offer a curated selection of products that I personally believe in. I understand the importance of reliable components for every computer enthusiast, gamer, and professional.
+                    </p>
+                    <p>
+                        At Tcho Kafew, I personally curate the product offerings and ensure that they meet the highest standards of quality and performance. Your satisfaction is my top priority, and I'm here to provide you with the best computer parts and the support you need to make informed choices. (i have provided a link to the project repository in the bottom of the page).
+                    </p>
+                    <p>
+                        Thanks to holberton school Paris for helping out me and the other developers for reaching this level of experience and to provide services and feedback to make our projects better. (the link to their socials are in the bottom of the site)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about-tcho-kafew">
+        <div class="about-project">
+            <h2>About Tcho Kafew</h2>
+            <img src="about.PNG" alt="Tcho Kafew" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 5px;">
+            <p>
+                Tcho Kafew is your premier online destination for all your computer parts and accessories needs. We are dedicated to providing you with a wide range of high-quality products to help you build, upgrade, and optimize your computer systems.
+            </p>
+            <p>
+                Our commitment to excellence and customer satisfaction sets us apart. With competitive prices, fast shipping, and top-notch customer support, we strive to be your trusted partner in the world of computer hardware.
+            </p>
+            <a href="store.html" class="btn">Go to Project</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/Othmane9011/Tch-Kafew" target="_blank">
+                <img src="github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/othmane-bengharbi-05248324b/" target="_blank">
+                <img src="LinkedIn.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.holbertonschool.fr/?utm_source=googleads&utm_medium=cta&utm_campaign=marque&gad_source=1&gclid=CjwKCAjw15eqBhBZEiwAbDomEnsIcdEA7R6FMwv0pwyMNEbIeVEVF-1ZPtTXRmARQQhoKlz8B7kwdBoC4g8QAvD_BwE" target="_blank">
+                <img src="holberton.png" alt="holbertonschool">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
